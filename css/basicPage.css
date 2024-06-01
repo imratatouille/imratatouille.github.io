@@ -1,0 +1,47 @@
+.chapterCont {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainChapter {
+    height: 50px;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.chapter {
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.mainCont {
+    font-size: 100px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.hTagCont {
+    display: flex;
+    flex-direction: column;
+}
+
+.pTagCont {
+    display: flex;
+    flex-direction: column;
+}
+
+.aTagCont {
+    display: flex;
+    flex-direction: column;
+}
+
+.bTagAndStrongTagCont {
+    display: flex;
+    flex-direction: column;
+}
+
+.iTagAndemTagCont {
+    display: flex;
+    flex-direction: column;
+}
