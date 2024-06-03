@@ -9,3 +9,7 @@ function goToIntermediatePage() {
 function goToIndexPage() {
     window.location.href = '/index.html';
 }
+
+function goBack() {
+    window.history.back();
+}
