@@ -13,8 +13,10 @@
         </div>
         <div class="chapterCont">
             <p class="mainChapter">Chapter 1</p>
+            <p class="subChapter">(주의 : 꺾쇠 "<",">" 사이에 띄어쓰기 없음. html 시스템상 일부로 띄어쓰기 함)</p>
             <div class="hTagCont">
                 <p class="chapter">1. < h > 태그</p>
+                <p class="manual">h 태그 사용법: < h1 > 내용 < /h1 ></p>
                 <h1>h1 hello world</h1>
                 <h2>h2 hello world</h2>
                 <h3>h3 hello world</h3>
@@ -24,24 +26,39 @@
             </div>
             <div class="pTagCont">
                 <p class="chapter">2. < p > 태그</p>
+                <p class="manual">p 태그 사용법: < p > 내용 < /p ></p>
                 <p>hello world</p>
             </div>
             <div class="aTagCont">
                 <p class="chapter">3. < a > 태그</p>
+                <p class="manual">a 태그 사용법: < a href="주소" > 표시될 내용 < /a ></p>
                 <a href="https://github.com/imratatouille">this is a tag</a>
             </div>
             <div class="bTagAndStrongTagCont">
                 <p class="chapter">4. < b >, < strong > 태그</p>
+                <p class="manual">b 태그 사용법: < b > 내용 < /b ></p>
+                <p class="manual">strong 태그 사용법: < strong > 내용 < /strong ></p>
                 <b>b tag : hello world</b>
                 <strong>strong tag : hello world</strong>
             </div>
             <div class="iTagAndemTagCont">
                 <p class="chapter">5. < i >, < em > 태그</p>
+                <p class="manual"><br />i 태그 사용법: < i > 내용 < /i ></p>
+                <p class="manual">em 태그 사용법: < em > 내용 < /em ></p>
                 <i>i tag : hello world</i>
                 <em>em tag: hello world</em>
             </div>
             <div class="ulTagAndOlTagAndLiTagCont">
                 <p class="chapter">6. < ul >, < ol >, < li > 태그</p>
+                <p class="manual">
+                    ul 태그 사용법:<br />
+                    < ul > <br />
+                    &nbsp&nbsp&nbsp&nbsp< li > 내용 < /li > <br />< /ul ><br /><br />
+                    ol 태그 사용법:
+                    <br />
+                    < ol > <br />
+                    &nbsp&nbsp&nbsp&nbsp< li > 내용 < /li > <br />< /ol >
+                </p>
                 <ul>
                     <li>ul => 순서 없는 목록</li>
                     <li>li => 목록 항목을 정의</li>
@@ -53,19 +70,23 @@
             </div>
             <div class="imgTagCont">
                 <p class="chapter">7. < img > 태그</p>
+                <p class="manual"><br />img 태그 사용법: < img src="이미지경로" ></p>
                 <img src="/img/myGithubPofile.png" alt="myGithubProfile" />
             </div>
             <div class="inputTagAndButtonTagCont">
                 <p class="chapter">8. < input >, < button > 태그</p>
+                <p class="manual">input 태그 사용법: < input ></p>
+                <p class="manual">button 태그 사용법: < button > 내용 < /button ></p>
                 <div class="inputAndButtonCont">
                     <input placeholder="this is input" />
                     <button>this is button</button>
-                    <button onclick="goToIntermediatePage()">this button is go to goToIntermediatePage</button>
+                    <button onclick="goToIntermediatePage()">this button is go to IntermediatePage</button>
                     <button onclick="goToIndexPage()">this button is go to Index Page</button>
                 </div>
             </div>
             <div class="commentCont">
                 <p class="chapter">9. < !-- -- >주석</p>
+                <p class="manual"><br />사용법: < !-- 내용 -- ></p>
                 <p>여기서 주석을 볼려면 개발자 도구(f12)를 눌러서 확인을 해주세요</p>
                 <!-- congratulations!! -->
                 <!-- This is comment -->
@@ -75,10 +96,12 @@
                 <p class="chapter">10. make site!</p>
                 <p class="assignment">여기서 과제!<br />직접 사이트 만들어보기!</p>
                 <a
+                    class="makeSiteLink"
                     href="https://github.com/imratatouille/imratatouille.github.io/blob/main/HowMakeSite.md"
                     target="_blank"
-                    >click this link</a
+                    >Click me!!</a
                 >
+                <p class="assignment">이 버튼을 클릭해서 만드는 방법을 알아보자!</p>
             </div>
         </div>
     </body>
