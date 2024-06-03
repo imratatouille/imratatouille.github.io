@@ -3,8 +3,8 @@ button {
     height: 100px;
     font-size: 20px;
     font-weight: 700;
-    border: solid 5px;
-    border-radius: 100px;
+    border: solid 2px;
+    border-radius: 10px;
 }
 
 p {

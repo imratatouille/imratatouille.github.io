@@ -5,17 +5,17 @@
 
 .mainChapter {
     height: 50px;
-    font-size: 100px;
-    font-weight: 900;
-}
-
-.chapter {
     font-size: 80px;
     font-weight: 900;
 }
 
+.chapter {
+    font-size: 50px;
+    font-weight: 900;
+}
+
 .mainCont {
-    font-size: 100px;
+    font-size: 50px;
     font-weight: 900;
     display: flex;
     justify-content: center;
@@ -42,6 +42,22 @@
 }
 
 .iTagAndemTagCont {
+    display: flex;
+    flex-direction: column;
+}
+
+.ulTagAndOlTagAndLiTagCont {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputTagAndButtonTagCont {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputAndButtonCont {
+    width: 200px;
     display: flex;
     flex-direction: column;
 }
