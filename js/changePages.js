@@ -13,3 +13,7 @@ function goToIndexPage() {
 function goBack() {
     window.history.back();
 }
+
+function goToCssBasicPage() {
+    window.location.href = './pages/cssBasicPage.html';
+}

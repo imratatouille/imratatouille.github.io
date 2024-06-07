@@ -1,0 +1,38 @@
+.mainCont1 {
+    width: 100px;
+    height: 100px;
+    border: 4mm ridge #000000;
+}
+
+.mainCont2 {
+    background-image: url('/img/dororo.jpeg');
+    width: 100px;
+    height: 100px;
+    border: 4mm ridge #000000;
+}
+
+.mainCont3 {
+    display: flex;
+    margin-left: 600px;
+    margin-top: 332.7px;
+    height: 300px;
+    width: 200px;
+    background-color: black;
+}
+
+.allCont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.realAllCont {
+    width: 98vw;
+    height: 98vh;
+    background-color: darkred;
+}
+
+#handle {
+    font-size: 100px;
+    width: 100px;
+    color: white;
+}
