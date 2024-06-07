@@ -1,0 +1,23 @@
+.kwon_kihyun {
+    background-image: url('/img/myGithubPofile.png');
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    border: 4mm ridge #000000;
+}
+
+.ji_hyewon {
+    background-image: url('/img/dororo.jpeg');
+    background-size: 110%;
+    width: 100px;
+    height: 100px;
+    border: 4mm ridge #000000;
+}
+
+.jung_sky {
+    background-image: url('/img/jungsky.jpg');
+    background-size: 110%;
+    width: 100px;
+    height: 100px;
+    border: 4mm ridge #000000;
+}
