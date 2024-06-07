@@ -6,6 +6,7 @@
 
 .mainCont2 {
     background-image: url('/img/dororo.jpeg');
+    background-size: 110%;
     width: 100px;
     height: 100px;
     border: 4mm ridge #000000;
