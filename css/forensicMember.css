@@ -21,3 +21,11 @@
     height: 100px;
     border: 4mm ridge #000000;
 }
+
+.park_seungwon {
+    background-image: url('/img/parkseungwon.jpg');
+    background-size: 110%;
+    width: 100px;
+    height: 100px;
+    border: 4mm ridge #000000;
+}
